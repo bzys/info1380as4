@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<!--
+	Author:		Bill Sun
+	Page Name:	index.html
+	Course:		INFO1380
+	Due Date:	Sun, July 22, 2018
+	Assignment:	Assignment 4
+	
+	Revision History:
+		
+-->
+<html lang="en">
+	<script src=""></script>
+<head>
+	<meta charset="utf-8">
+	<title>Assignment 4</title>
+	<link rel="stylesheet" href="../styles/normalize.css">
+	<link rel="stylesheet" href="../styles/style.css">
+</head>
+<body onload="focusThis()">
+	<header>
+		<p>Cloud Portfolio Page</p>
+		<h1>About & Contact Me</h1>
+		<br>
+	</header>
+	
+	<nav id="nav_menu">
+		<ul>
+			<li><a href="../index.html">Home</a></li>
+			<li><a href="#">Works</a>
+				<ul>
+					<li><a href="#">3D Modeling</a>
+						<ul>
+							<li><a href="./lightwave.html">NewTek LightWave</a></li>
+							<li><a href="./construction.html">Blender</a></li>
+						</ul>
+					</li>
+					<li><a href="#">My Mods</a>
+						<ul>
+							<li><a href="./modsKSP.html">Kerbal Space Program</a></li>
+							<li><a href="./construction.html">Space Engineers</a></li>
+							<li><a href="./construction.html">Sins of a Solar Empire</a></li>
+						</ul>
+					</li>
+					<li><a href="#">Coding</a>
+						<ul>
+							<li><a href="./csharp.html">C#</a></li>
+							<li><a href="./construction.html">Web</a></li>
+						</ul>
+					</li>
+				</ul>
+			</li>
+			<li><a href="#">Other Websites</a>
+				<ul>
+					<li><a href="./construction.html">My Pixiv</a>
+					<li><a href="./construction.html">My Twitter</a>
+				</ul>
+			</li>
+			<li><a href="./contact.html" class="current">About & Contact Me</a></li>
+			</ul>
+	</nav>
+	
+	<main>
+		<h3>About me</h3>
+		<p>I'm not great at self-introductions so imma keep this short. I like to play video games, do some 3D modeling (mostly related to various mods I make for video games I play), and draw (mostly digital) in my free time.</p>
+		<p>Right now the video game I make mods for most is one called Kerbal Space Program, a game where you launch little green characters into space.</p>
+		
+		<br>
+		<h3>About this website</h3>
+		<p>This website was made for an assignment, so assembled with some quick n' dirty copy and paste from various websites and assignments I've made previously. I also like minimalistic, 2000s-era style websites, which is why this one is very plain.</p>
+	
+		<br>
+		<h3>Contact me</h3>
+		<p>If you want to contact me, feel free to send an email to bsun1453@conestogac.on.ca, I probably won't read it.</p>
+
+		<form action="mailto:bsun1453@conestogac.on.ca" method="post" enctype="text/plain">
+			<span style="padding-right: 20px">Name:</span><input type="text" name="name" style="width: 40%">
+			<br>
+			<br>
+			<span style="padding-right: 18px">E-mail:</span><input type="text" name="mail" style="width: 40%">
+			<br>
+			<br>
+			<textarea id="span" name="message" rows="10" cols="80"></textarea>
+			<br>
+			<input type="submit" value="Send" style="float: right; width: 200px">
+			<br>
+		</form>
+		
+	</main>
+	<footer>
+		<br>
+		<hr>
+		<p style="text-align: right">INFO1380: Technology Infrastructure: Networking<br>Bill Sun<br>Assignment 4<br>Due: July 22<sup>nd</sup>, 2018</p>
+	</footer>
+</body>
+</html>
